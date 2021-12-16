@@ -20,14 +20,19 @@
   },
   "homepage": "https://github.com/basnetlaxmi/leaderboard#readme",
   "dependencies": {
-    "lodash": "^4.17.21",
-    "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "css-loader": "^6.5.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.3",
+    "hint": "^6.1.9",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"
   }
 }
