@@ -1,3 +1,5 @@
+import { getData, postData } from './apidata.js';
+
 const data = [
   { name: 'Laxmi', score: 45 },
   { name: 'Shyam', score: 30 },
@@ -16,4 +18,7 @@ function display(data) {
   </li>`).join('');
   table.innerHTML = codeData;
 }
+
+const fetchRefreshBtn = document.querySelector('.refresh-btn');
+fetchRefreshBtn.addEventListener('click', getData);
 export { data, display };
