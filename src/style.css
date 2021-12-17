@@ -85,3 +85,9 @@ html {
 .add-btn {
   margin-left: auto;
 }
+
+.table-data {
+  list-style: none;
+  border: grey 5px solid;
+}
+
