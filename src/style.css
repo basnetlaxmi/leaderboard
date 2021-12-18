@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #42f557;
+}
+
 html {
   font-family: 'Ubuntu', sans-serif;
   font-size: 60%;
@@ -40,6 +44,7 @@ html {
 .top {
   display: flex;
   gap: 4rem;
+  margin-top:100px;
 }
 
 .scores-title {
@@ -85,4 +90,20 @@ html {
 .table-data {
   list-style: none;
   border: grey 5px solid;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.table-data .score {
+  margin-left: auto;
+}
+
+.title h1 {
+  text-align: center;
+  width: 90%;
+  background: white;
+}
+
+.add-scores {
+  margin-top: 100px;
 }
