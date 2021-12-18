@@ -19,7 +19,11 @@ To get a local copy up and running follow these simple example steps.
 
 1) Enter `git@github.com:basnetlaxmi/leaderboard.git` into terminal
 
-2) Open in browser to view site
+2) Run cd leaderboard
+
+3) Run `npm install && npm start`
+
+4) If your browser doesn't open automatically, open it manually and type http://localhost:8080/ in the URL bar.
 
 
 ### Prerequisites
