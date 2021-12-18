@@ -1,6 +1,6 @@
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zkfjdkfhuefhfhf/scores/';
 
-async function postData(data) {
+const postData = async (data) => {
   const response = await fetch(url, {
     method: 'POST',
     mode: 'cors',
@@ -8,10 +8,10 @@ async function postData(data) {
     body: JSON.stringify(data),
   });
   return response.json();
-}
+};
 
-async function getData() {
+const getData = async () => {
   const response = await fetch(url);
   return response.json();
-}
+};
 export { postData, getData };

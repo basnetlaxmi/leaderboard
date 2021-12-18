@@ -1,6 +1,5 @@
 import { getData, postData } from './apidata.js';
 
-// eslint-disable-next-line import/no-mutable-exports
 let data = [
   { user: 'Laxmi', score: 45 },
   { user: 'Shyam', score: 30 },
